@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+*{
+	font-family: 'Roboto Slab', Times,serif;
+}
+
+body {
+    padding-top: 70px;
+}
+
+footer {
+	color: white;
+	height: 10%;
+	width: 100%;
+	padding: 30px;
+	background-color: #181818;
+}
+
+ .btn-black, .btn-black:hover,.btn-black:focus {
+ 	color: white;
+     background-color: #2e2e2e;
+}
+ .comment-list {
+     margin-top: 20px;
+     margin-bottom: 10px;
+     padding-top: 10px;
+     padding-bottom: 20px;
+     border-bottom: 2px solid #e4e4e4;
+}
+ .rating-star-list {
+     margin-top: 5px;
+     margin-bottom: 0;
+}
+ .fa-star,.fa-star-half ,.fa-calendar{
+     color: #c0392b;
+}
+ .fa-star-o {
+     color: #909090;
+}
+ #write-comment{
+     background-color: #c0392b;
+}
+hr{
+	height:1px;
+	background-color: black;
+}
+.hide{
+	display: none;
+}
+#admin_wrap{
+	min-height: 800px;
+	border: 2px solid #99a1af;
+    padding: 20px;
+}
+.list-group-item {
+    padding: 20px 25px;
+}
+.jumbotron{
+    background-image: url("../images/admin_header.jpg");
+    min-height: 350px;
+}
+h1.font{
+    font-family: 'Trocchi', serif; 
+    font-size: 65px; 
+    font-weight: normal; 
+    line-height: 100px; 
+    margin: 0; 
+    color:white;
+}
